@@ -11,6 +11,10 @@
 		D71141F02BB87B1400194041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71141EF2BB87B1400194041 /* ContentView.swift */; };
 		D71141F22BB87B1500194041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71141F12BB87B1500194041 /* Assets.xcassets */; };
 		D71141F62BB87B1500194041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71141F52BB87B1500194041 /* Preview Assets.xcassets */; };
+		D71141FD2BB87D8D00194041 /* PointAdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71141FC2BB87D8D00194041 /* PointAdditionView.swift */; };
+		D71141FF2BB87D9900194041 /* ScalarMultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71141FE2BB87D9900194041 /* ScalarMultiplicationView.swift */; };
+		D71142012BB87DB000194041 /* EllipticCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71142002BB87DB000194041 /* EllipticCurve.swift */; };
+		D71142032BB87DBD00194041 /* EllipticCurveOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71142022BB87DBD00194041 /* EllipticCurveOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		D71141F12BB87B1500194041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71141F32BB87B1500194041 /* EllipticCurveCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EllipticCurveCalculator.entitlements; sourceTree = "<group>"; };
 		D71141F52BB87B1500194041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D71141FC2BB87D8D00194041 /* PointAdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAdditionView.swift; sourceTree = "<group>"; };
+		D71141FE2BB87D9900194041 /* ScalarMultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalarMultiplicationView.swift; sourceTree = "<group>"; };
+		D71142002BB87DB000194041 /* EllipticCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurve.swift; sourceTree = "<group>"; };
+		D71142022BB87DBD00194041 /* EllipticCurveOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				D71141F12BB87B1500194041 /* Assets.xcassets */,
 				D71141F32BB87B1500194041 /* EllipticCurveCalculator.entitlements */,
 				D71141F42BB87B1500194041 /* Preview Content */,
+				D71141FC2BB87D8D00194041 /* PointAdditionView.swift */,
+				D71141FE2BB87D9900194041 /* ScalarMultiplicationView.swift */,
+				D71142002BB87DB000194041 /* EllipticCurve.swift */,
+				D71142022BB87DBD00194041 /* EllipticCurveOperations.swift */,
 			);
 			path = EllipticCurveCalculator;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71141FF2BB87D9900194041 /* ScalarMultiplicationView.swift in Sources */,
+				D71142032BB87DBD00194041 /* EllipticCurveOperations.swift in Sources */,
 				D71141F02BB87B1400194041 /* ContentView.swift in Sources */,
+				D71141FD2BB87D8D00194041 /* PointAdditionView.swift in Sources */,
 				D71141EE2BB87B1400194041 /* EllipticCurveCalculatorApp.swift in Sources */,
+				D71142012BB87DB000194041 /* EllipticCurve.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
